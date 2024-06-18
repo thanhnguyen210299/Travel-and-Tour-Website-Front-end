@@ -143,7 +143,7 @@ var swiper = new Swiper(".clients-slider", {
 
 document.addEventListener("DOMContentLoaded", function() {
     let loadMoreBtn = document.querySelector('.packages .load-more .btn');
-    let currentItem = 3;
+    let currentItem = 6;
   
     loadMoreBtn.addEventListener('click', () => {
       let boxes = [...document.querySelectorAll('.packages .box-container .box')];
